@@ -14,6 +14,10 @@
 		0E08EE2022BEE32F00BF06D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E08EE1E22BEE32F00BF06D0 /* LaunchScreen.storyboard */; };
 		0E08EE2B22BEE32F00BF06D0 /* swift_rainbowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E08EE2A22BEE32F00BF06D0 /* swift_rainbowTests.swift */; };
 		0E08EE3622BEE32F00BF06D0 /* swift_rainbowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E08EE3522BEE32F00BF06D0 /* swift_rainbowUITests.swift */; };
+		0E08EE5022BEEBBA00BF06D0 /* FlatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E08EE4F22BEEBBA00BF06D0 /* FlatButton.swift */; };
+		0E08EE5222BEEC0900BF06D0 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E08EE5122BEEC0900BF06D0 /* Utils.swift */; };
+		0E08EE5422BEECC700BF06D0 /* PressableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E08EE5322BEECC700BF06D0 /* PressableButton.swift */; };
+		0E08EE5622BEED1000BF06D0 /* CustomPressableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E08EE5522BEED1000BF06D0 /* CustomPressableButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		0E08EE3122BEE32F00BF06D0 /* swift-rainbowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-rainbowUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E08EE3522BEE32F00BF06D0 /* swift_rainbowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_rainbowUITests.swift; sourceTree = "<group>"; };
 		0E08EE3722BEE32F00BF06D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E08EE4F22BEEBBA00BF06D0 /* FlatButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatButton.swift; sourceTree = "<group>"; };
+		0E08EE5122BEEC0900BF06D0 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		0E08EE5322BEECC700BF06D0 /* PressableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressableButton.swift; sourceTree = "<group>"; };
+		0E08EE5522BEED1000BF06D0 /* CustomPressableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPressableButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,7 @@
 		0E08EE1422BEE32E00BF06D0 /* swift-rainbow */ = {
 			isa = PBXGroup;
 			children = (
+				0E08EE4322BEE4B900BF06D0 /* components */,
 				0E08EE1522BEE32E00BF06D0 /* AppDelegate.swift */,
 				0E08EE1722BEE32E00BF06D0 /* ViewController.swift */,
 				0E08EE1922BEE32E00BF06D0 /* Main.storyboard */,
@@ -123,6 +132,25 @@
 				0E08EE3722BEE32F00BF06D0 /* Info.plist */,
 			);
 			path = "swift-rainbowUITests";
+			sourceTree = "<group>";
+		};
+		0E08EE4322BEE4B900BF06D0 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				0E08EE4422BEE4D100BF06D0 /* RainbowButtonView */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		0E08EE4422BEE4D100BF06D0 /* RainbowButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				0E08EE4F22BEEBBA00BF06D0 /* FlatButton.swift */,
+				0E08EE5122BEEC0900BF06D0 /* Utils.swift */,
+				0E08EE5322BEECC700BF06D0 /* PressableButton.swift */,
+				0E08EE5522BEED1000BF06D0 /* CustomPressableButton.swift */,
+			);
+			path = RainbowButtonView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +284,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E08EE5422BEECC700BF06D0 /* PressableButton.swift in Sources */,
+				0E08EE5022BEEBBA00BF06D0 /* FlatButton.swift in Sources */,
 				0E08EE1822BEE32E00BF06D0 /* ViewController.swift in Sources */,
 				0E08EE1622BEE32E00BF06D0 /* AppDelegate.swift in Sources */,
+				0E08EE5622BEED1000BF06D0 /* CustomPressableButton.swift in Sources */,
+				0E08EE5222BEEC0900BF06D0 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
