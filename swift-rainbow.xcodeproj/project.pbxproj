@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,10 +14,9 @@
 		0E08EE2022BEE32F00BF06D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E08EE1E22BEE32F00BF06D0 /* LaunchScreen.storyboard */; };
 		0E08EE2B22BEE32F00BF06D0 /* swift_rainbowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E08EE2A22BEE32F00BF06D0 /* swift_rainbowTests.swift */; };
 		0E08EE3622BEE32F00BF06D0 /* swift_rainbowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E08EE3522BEE32F00BF06D0 /* swift_rainbowUITests.swift */; };
-		0E08EE5022BEEBBA00BF06D0 /* FlatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E08EE4F22BEEBBA00BF06D0 /* FlatButton.swift */; };
-		0E08EE5222BEEC0900BF06D0 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E08EE5122BEEC0900BF06D0 /* Utils.swift */; };
-		0E08EE5422BEECC700BF06D0 /* PressableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E08EE5322BEECC700BF06D0 /* PressableButton.swift */; };
-		0E08EE5622BEED1000BF06D0 /* CustomPressableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E08EE5522BEED1000BF06D0 /* CustomPressableButton.swift */; };
+		1325FE63F09ADD7302942BFD /* Pods_swift_rainbow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3B574F12F8FDB7BAE38CA2 /* Pods_swift_rainbow.framework */; };
+		9B2D0930D78E3F465840C91C /* Pods_swift_rainbowTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21D66886B4B94A03A48B0622 /* Pods_swift_rainbowTests.framework */; };
+		B65260D0FB4B32EA11320E81 /* Pods_swift_rainbowUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E17502F0696251976C2F70 /* Pods_swift_rainbowUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		067CC3D782D15A49C08678BA /* Pods-swift-rainbow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-rainbow.release.xcconfig"; path = "Target Support Files/Pods-swift-rainbow/Pods-swift-rainbow.release.xcconfig"; sourceTree = "<group>"; };
 		0E08EE1222BEE32E00BF06D0 /* swift-rainbow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-rainbow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E08EE1522BEE32E00BF06D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E08EE1722BEE32E00BF06D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,10 +51,14 @@
 		0E08EE3122BEE32F00BF06D0 /* swift-rainbowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-rainbowUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E08EE3522BEE32F00BF06D0 /* swift_rainbowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_rainbowUITests.swift; sourceTree = "<group>"; };
 		0E08EE3722BEE32F00BF06D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0E08EE4F22BEEBBA00BF06D0 /* FlatButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatButton.swift; sourceTree = "<group>"; };
-		0E08EE5122BEEC0900BF06D0 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		0E08EE5322BEECC700BF06D0 /* PressableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressableButton.swift; sourceTree = "<group>"; };
-		0E08EE5522BEED1000BF06D0 /* CustomPressableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPressableButton.swift; sourceTree = "<group>"; };
+		13779FFEBB1F861EB057DEA0 /* Pods-swift-rainbowUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-rainbowUITests.release.xcconfig"; path = "Target Support Files/Pods-swift-rainbowUITests/Pods-swift-rainbowUITests.release.xcconfig"; sourceTree = "<group>"; };
+		21D66886B4B94A03A48B0622 /* Pods_swift_rainbowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_rainbowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D6C01F2811E17C7126DA46D /* Pods-swift-rainbowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-rainbowTests.release.xcconfig"; path = "Target Support Files/Pods-swift-rainbowTests/Pods-swift-rainbowTests.release.xcconfig"; sourceTree = "<group>"; };
+		4A3B574F12F8FDB7BAE38CA2 /* Pods_swift_rainbow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_rainbow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1E17502F0696251976C2F70 /* Pods_swift_rainbowUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_rainbowUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF71008C783E3B1AD6A10A41 /* Pods-swift-rainbowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-rainbowTests.debug.xcconfig"; path = "Target Support Files/Pods-swift-rainbowTests/Pods-swift-rainbowTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C307B2222CEBDEBDCE3BE591 /* Pods-swift-rainbowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-rainbowUITests.debug.xcconfig"; path = "Target Support Files/Pods-swift-rainbowUITests/Pods-swift-rainbowUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D2FBF35E655FE946A883162A /* Pods-swift-rainbow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-rainbow.debug.xcconfig"; path = "Target Support Files/Pods-swift-rainbow/Pods-swift-rainbow.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1325FE63F09ADD7302942BFD /* Pods_swift_rainbow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B2D0930D78E3F465840C91C /* Pods_swift_rainbowTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +82,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B65260D0FB4B32EA11320E81 /* Pods_swift_rainbowUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0385953077167D9DA6FE6631 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A3B574F12F8FDB7BAE38CA2 /* Pods_swift_rainbow.framework */,
+				21D66886B4B94A03A48B0622 /* Pods_swift_rainbowTests.framework */,
+				B1E17502F0696251976C2F70 /* Pods_swift_rainbowUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0E08EE0922BEE32E00BF06D0 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +106,8 @@
 				0E08EE2922BEE32F00BF06D0 /* swift-rainbowTests */,
 				0E08EE3422BEE32F00BF06D0 /* swift-rainbowUITests */,
 				0E08EE1322BEE32E00BF06D0 /* Products */,
+				DE6B7570DD72EAB886BB222B /* Pods */,
+				0385953077167D9DA6FE6631 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,20 +156,21 @@
 		0E08EE4322BEE4B900BF06D0 /* components */ = {
 			isa = PBXGroup;
 			children = (
-				0E08EE4422BEE4D100BF06D0 /* RainbowButtonView */,
 			);
 			path = components;
 			sourceTree = "<group>";
 		};
-		0E08EE4422BEE4D100BF06D0 /* RainbowButtonView */ = {
+		DE6B7570DD72EAB886BB222B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0E08EE4F22BEEBBA00BF06D0 /* FlatButton.swift */,
-				0E08EE5122BEEC0900BF06D0 /* Utils.swift */,
-				0E08EE5322BEECC700BF06D0 /* PressableButton.swift */,
-				0E08EE5522BEED1000BF06D0 /* CustomPressableButton.swift */,
+				D2FBF35E655FE946A883162A /* Pods-swift-rainbow.debug.xcconfig */,
+				067CC3D782D15A49C08678BA /* Pods-swift-rainbow.release.xcconfig */,
+				BF71008C783E3B1AD6A10A41 /* Pods-swift-rainbowTests.debug.xcconfig */,
+				3D6C01F2811E17C7126DA46D /* Pods-swift-rainbowTests.release.xcconfig */,
+				C307B2222CEBDEBDCE3BE591 /* Pods-swift-rainbowUITests.debug.xcconfig */,
+				13779FFEBB1F861EB057DEA0 /* Pods-swift-rainbowUITests.release.xcconfig */,
 			);
-			path = RainbowButtonView;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E08EE3A22BEE32F00BF06D0 /* Build configuration list for PBXNativeTarget "swift-rainbow" */;
 			buildPhases = (
+				B1B59E39F026CB7598645D41 /* [CP] Check Pods Manifest.lock */,
 				0E08EE0E22BEE32E00BF06D0 /* Sources */,
 				0E08EE0F22BEE32E00BF06D0 /* Frameworks */,
 				0E08EE1022BEE32E00BF06D0 /* Resources */,
+				D94FFE7F6C6BAF01129D1FD6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -177,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E08EE3D22BEE32F00BF06D0 /* Build configuration list for PBXNativeTarget "swift-rainbowTests" */;
 			buildPhases = (
+				59D96FD4F1878EF7D8AFC222 /* [CP] Check Pods Manifest.lock */,
 				0E08EE2222BEE32F00BF06D0 /* Sources */,
 				0E08EE2322BEE32F00BF06D0 /* Frameworks */,
 				0E08EE2422BEE32F00BF06D0 /* Resources */,
@@ -195,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E08EE4022BEE32F00BF06D0 /* Build configuration list for PBXNativeTarget "swift-rainbowUITests" */;
 			buildPhases = (
+				4EB127954C94CCC6E44403EC /* [CP] Check Pods Manifest.lock */,
 				0E08EE2D22BEE32F00BF06D0 /* Sources */,
 				0E08EE2E22BEE32F00BF06D0 /* Frameworks */,
 				0E08EE2F22BEE32F00BF06D0 /* Resources */,
@@ -279,17 +303,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4EB127954C94CCC6E44403EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swift-rainbowUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59D96FD4F1878EF7D8AFC222 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swift-rainbowTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1B59E39F026CB7598645D41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swift-rainbow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D94FFE7F6C6BAF01129D1FD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swift-rainbow/Pods-swift-rainbow-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swift-rainbow/Pods-swift-rainbow-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-swift-rainbow/Pods-swift-rainbow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0E08EE0E22BEE32E00BF06D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E08EE5422BEECC700BF06D0 /* PressableButton.swift in Sources */,
-				0E08EE5022BEEBBA00BF06D0 /* FlatButton.swift in Sources */,
 				0E08EE1822BEE32E00BF06D0 /* ViewController.swift in Sources */,
 				0E08EE1622BEE32E00BF06D0 /* AppDelegate.swift in Sources */,
-				0E08EE5622BEED1000BF06D0 /* CustomPressableButton.swift in Sources */,
-				0E08EE5222BEEC0900BF06D0 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +568,7 @@
 		};
 		0E08EE3B22BEE32F00BF06D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2FBF35E655FE946A883162A /* Pods-swift-rainbow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -480,6 +587,7 @@
 		};
 		0E08EE3C22BEE32F00BF06D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 067CC3D782D15A49C08678BA /* Pods-swift-rainbow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -498,6 +606,7 @@
 		};
 		0E08EE3E22BEE32F00BF06D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF71008C783E3B1AD6A10A41 /* Pods-swift-rainbowTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +628,7 @@
 		};
 		0E08EE3F22BEE32F00BF06D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D6C01F2811E17C7126DA46D /* Pods-swift-rainbowTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -540,6 +650,7 @@
 		};
 		0E08EE4122BEE32F00BF06D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C307B2222CEBDEBDCE3BE591 /* Pods-swift-rainbowUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -560,6 +671,7 @@
 		};
 		0E08EE4222BEE32F00BF06D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13779FFEBB1F861EB057DEA0 /* Pods-swift-rainbowUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
